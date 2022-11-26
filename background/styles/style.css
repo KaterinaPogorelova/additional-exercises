@@ -1,0 +1,12 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	background: url("..//img/fluffle_puff_the_pink_fluffy_unicorn_dancing_on_rainbows_3.jpg") no-repeat center/contain;
+	background-color: rgb(253, 234, 245);
+}
