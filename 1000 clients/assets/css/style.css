@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@100;200&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.reviews {
+	background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+	padding: 125px 0 530px;
+	position: relative;
+}
+
+.container {
+	width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.bg-item {
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	border-radius: 50%;
+	background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+	transform: skewX(-20deg);
+	transform-origin: center left;
+	top: 50px;
+	left: 160px;
+}
+
+.main-title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	width: 330px;
+	margin: 0 auto 75px;
+	position: relative;
+}
+
+.main-title::after {
+	content: "";
+	width: 50px;
+	height: 7px;
+	border-radius: 1em;
+	display: block;
+	background: #FD749B;
+	position: absolute;
+	top: 115px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.main-text {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	width: 545px;
+	margin: 0 auto 30px;
+}
+
+.reviews-wrapper {
+	position: relative;
+}
+
+.review-figure {
+	background: #D8D8D8;
+	border-radius: 50%;
+	position: relative;
+}
+
+.review-content {
+	width: 410px;
+	background: #C4C4C4;
+	border-radius: 15px;
+	padding: 20px 25px;
+	position: relative;
+}
+
+.review-content::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: 30px solid #C4C4C4;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	left: -30px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.bitcoin-icon-wrapper {
+	width: 24px;
+	height: 24px;
+	border: 3px solid;
+	border-color: rgb(192, 12, 192);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.review-content__title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #333333;
+	margin-bottom: 5px;
+}
+
+.svg-wrapper {
+	margin-bottom: 5px;
+}
+
+.global-review {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+}
+
+.additional-review {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+}
+
+.review-wrapper--medium-size {
+	width: 85px;
+	height: 85px;
+}
+
+.review-wrapper-1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.review-wrapper-2 {
+	position: absolute;
+	top: 85px;
+	right: 215px;
+}
